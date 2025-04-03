@@ -19,7 +19,7 @@ const Login = () => {
           <input type="password" placeholder="Password"/>
           <button>Sign Up</button>
           <div className="form-help">
-            <div className="remember">
+            <div className="remember-me">
               <input type="checkbox"/>
               <label htmlFor="">Remember Me</label>
             </div>
