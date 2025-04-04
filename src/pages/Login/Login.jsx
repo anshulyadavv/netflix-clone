@@ -13,7 +13,7 @@ const Login = () => {
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
-          {signState=="Sign Up"? <input type="text" placeholder="Your Name"/>:<></>}
+          {signState==="Sign Up"? <input type="text" placeholder="Your Name"/>:<></>}
           
           <input type="email" placeholder="Email"/>
           <input type="password" placeholder="Password"/>
@@ -28,12 +28,11 @@ const Login = () => {
         </form>
         <div className="form-switch">
           {signState==="Sign In"?
-          <p>New to Netflix? <span onClick={(=>{setSignState("Sign Up")})}>Sign Up Now</span></p>
-          :<p>Already have account? <span onClick={(=>{setSignState("Sign In")})}>Sign In</span></p>
+          <p>New to Netflix? <span onClick={()=>{setSignState("Sign Up")}}>Sign Up Now</span></p>
+          :<p>Already have account? <span onClick={()=>{setSignState("Sign In")}}>Sign In</span></p>
         }
           
-          
-        </div>
+                  </div>
       </div>
     </div>
   )
