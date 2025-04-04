@@ -27,7 +27,10 @@ const Login = () => {
           </div>
         </form>
         <div className="form-switch">
+          {signState==="Sign In"?
           <p>New to Netflix? <span>Sign Up Now</span></p>
+        }
+          
           <p>Already have account? <span>Sign In</span></p>
         </div>
       </div>
