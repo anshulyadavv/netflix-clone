@@ -73,12 +73,12 @@
     height: 18px;
 }
 
-form-switch{
+.form-switch{
     margin-top: 40px;
     color: #737373;
 }
 
-form-switch span{
+.form-switch span{
     margin-left: 6px;
     color: #fff;
     font-weight: 500;
