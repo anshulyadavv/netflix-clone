@@ -106,6 +106,3 @@ A responsive Netflix clone built to replicate the UI/UX of the popular streaming
 
 This project is licensed under the [MIT License](LICENSE).
 
----
-
-Let me know if you want to include deployment instructions, environment config details, or credit for collaborators!
